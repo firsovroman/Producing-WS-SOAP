@@ -60,4 +60,18 @@ class ProducingWebServiceApplicationTests {
                 .andExpect(payload(expectedResponse));
     }
 
+
+    @Test
+    void with_void_name_in_request() {
+
+        StringSource request = new StringSource(
+                "<gs:getCountryRequest xmlns:gs=\"http://spring.io/guides/gs-producing-web-service\">" +
+                        "<gs:name></gs:name>" +
+                        "</gs:getCountryRequest>"
+        );
+
+        client.sendRequest(withPayload(request))
+                .andExpect(serverOrReceiverFault());
+    }
+
 }
