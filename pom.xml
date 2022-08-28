@@ -13,7 +13,7 @@
     <groupId>com.example</groupId>
     <artifactId>producing-web-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Producing-web-service</name>
+    <name>Producing-WS-SOAP</name>
     <description>Producing-WS-SOAP</description>
 
 
