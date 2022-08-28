@@ -14,7 +14,7 @@
     <artifactId>producing-web-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Producing-web-service</name>
-    <description>Producing-web-service</description>
+    <description>Producing-WS-SOAP</description>
 
 
     <properties>
